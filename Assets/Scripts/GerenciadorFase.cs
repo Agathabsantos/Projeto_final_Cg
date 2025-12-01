@@ -30,12 +30,14 @@ public class GerenciadorFase : MonoBehaviour
     float halfX = b.extents.x;
     float halfZ = b.extents.z;
 
-    for (int i = 0; i < quantidadeMoedas; i++)
+    float ySuperficie = b.max.y;
+
+   for (int i = 0; i < quantidadeMoedas; i++)
     {
         float x = Random.Range(-halfX + margemBorda, halfX - margemBorda);
         float z = Random.Range(-halfZ + margemBorda, halfZ - margemBorda);
 
-        Vector3 pos = new Vector3(b.center.x + x, plano.position.y + alturaMoeda, b.center.z + z);
+        Vector3 pos = new Vector3(b.center.x + x, ySuperficie + alturaMoeda, b.center.z + z);
         Quaternion rot = Quaternion.Euler(90, 90, 0);
 
         GameObject novaMoeda = Instantiate(moedaPrefab, pos, rot);
