@@ -59,5 +59,3 @@ Coletar todas as moedas antes que o tempo chegue a zero.
 
 ---
 
-## 🧱 Estrutura do Projeto
-
