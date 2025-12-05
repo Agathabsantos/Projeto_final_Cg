@@ -57,5 +57,5 @@ Coletar todas as moedas antes que o tempo chegue a zero.
   - `MoedaRotacao.cs` – animação da rotação da moeda
   - `CriarParedesDoPlano.cs` – paredes invisíveis de contenção
 
----
+
 
