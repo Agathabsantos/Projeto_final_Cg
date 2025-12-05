@@ -22,7 +22,7 @@ O jogo possui:
 - **Timer regressivo** (vence se pegar tudo antes do tempo)  
 - Mensagem de **vitória** ou **derrota**  
 - Opção de **reiniciar** rapidamente pressionando a tecla **R**  
-- HUD 3D mostrando tempo e moedas coletadas
+- HUD 3D mostrando tempo 
 
 ---
 
